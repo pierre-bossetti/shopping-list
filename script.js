@@ -196,7 +196,7 @@ function init() {
   itemList.addEventListener("click", onClickItem);
   clearBtn.addEventListener("click", clearItems);
   itemFilter.addEventListener("input", filterItems);
-  itemFilter.addEventListener("DOMContentLoaded", displayItems);
+  document.addEventListener("DOMContentLoaded", displayItems);
 
   checkUI();
 }
